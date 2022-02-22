@@ -2,6 +2,10 @@
 	&__item {
 		position: relative;
 		margin-bottom: 180px;
+		margin-top: 30px;
+		@include desktop {
+			margin-top: 30px;
+		}
 		&-thumb {
 			width: 90%;
 			height: 100%;
