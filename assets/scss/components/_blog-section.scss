@@ -1,6 +1,10 @@
 .blog-preview {
 	position: relative;
-	margin-bottom: -50px;
+	margin-bottom: 70px;
+	@include desktop {
+        margin-bottom: 50px;
+    }
+	
 	&__shape {
 		position: absolute;
 		top: 11%;
