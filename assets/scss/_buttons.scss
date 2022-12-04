@@ -17,6 +17,13 @@
   }
 }
 
+.btn-light2 {
+  color: $button_color_footer;
+  &:hover {
+    color: $button_color_footer;
+  }
+}
+
 .btn-zoom {
   transition: all 0.3s ease;
   transform: scale(1);
